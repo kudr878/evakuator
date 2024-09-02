@@ -1,0 +1,68 @@
+.button {
+  width: 335px;
+  height: 56px;
+  border-radius: 50px;
+  box-sizing: border-box;
+  cursor: pointer;
+  outline: none;
+  transition: 0.3s, color 0.3s;
+  text-align: center;
+
+  &--blue {
+    background-color: $primary-blue-color;
+    color: $white-color;
+    font-size: 20px;
+    border: none;
+    text-transform: uppercase;
+
+    &:hover {
+      background-color: $hover-blue-color;
+    }
+
+    &:active {
+      background-color: $pressed-blue-color;
+    }
+
+    &:disabled {
+      background-color: $disabled-blue-color;
+      cursor: not-allowed;
+    }
+  }
+
+  &--transparent {
+    background-color: transparent;
+    color: $primary-blue-color;
+    border: none;
+    border: 1px solid;
+
+    .id {
+      font-size: 12px;
+    }
+
+    .order {
+      font-size: 16px;
+      text-decoration: underline;
+    }
+  }
+
+  &--light-blue {
+    background-color: $chat-color;
+    color: $white-color;
+    font-size: 20px;
+    border: none;
+    text-transform: uppercase;
+
+    &:hover {
+      background-color: $hover-blue-color;
+    }
+
+    &:active {
+      background-color: $pressed-blue-color;
+    }
+
+    &:disabled {
+      background-color: $disabled-blue-color;
+      cursor: not-allowed;
+    }
+  }
+}

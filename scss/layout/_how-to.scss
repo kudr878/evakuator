@@ -1,0 +1,64 @@
+.how-to {
+  background: $accent-yellow-color;
+
+  &__report,
+  &__locked {
+    display: flex;
+    position: relative;
+  }
+
+  &__report::after,
+  &__locked::after {
+    content: '';
+    display: block;
+    position: absolute;
+
+    height: 100%;
+    width: 50%;
+  }
+
+  &__locked {
+    p {
+      font-weight: 500;
+    }
+  }
+
+  &__report::after {
+    right: 0;
+    background: url(../../assets/img/how-to1.png) no-repeat;
+    background-size: cover;
+  }
+
+  &__locked::after {
+    left: 0;
+    background: url(../../assets/img/how-to2.png) no-repeat;
+    background-size: cover;
+  }
+
+  &__text {
+    display: block;
+    width: 50%;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    padding-right: 56px;
+  }
+
+  &__locked .how-to__text {
+    margin-left: auto;
+    padding-right: 0;
+    padding-left: 56px;
+  }
+
+  h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 32px;
+  }
+
+  p {
+    font-size: 26px;
+    margin-bottom: 24px;
+  }
+
+
+}

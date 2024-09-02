@@ -1,0 +1,146 @@
+.main-content {
+  &__advertisement {
+    background: url(../../assets/img/BG2.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 139px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+
+    h2 {
+      font-size: 46px;
+      font-weight: 700;
+      color: white;
+      margin-left: 36px;
+      margin-right: 125px;
+    }
+  }
+
+  &__how-to-call {
+    height: 867px;
+    display: flex;
+    align-items: center;
+    gap: 39px;
+
+    &-text {
+      max-width: 698px;
+
+      h2 {
+        font-size: 40px;
+        font-weight: 700;
+        margin-bottom: 48px;
+      }
+
+      p {
+        font-size: 26px;
+      }
+    }
+  }
+
+  &__what-to-know {
+    height: 873px;
+    background: $accent-yellow-color;
+    display: flex;
+    padding: 100px 0;
+    justify-content: space-between;
+
+    h2 {
+      font-size: 40px;
+      font-weight: 700;
+      margin-bottom: 48px;
+    }
+
+    &-content {
+      display: flex;
+      gap: 40px;
+
+      img {
+        height: 290px;
+        object-fit: contain;
+      }
+    }
+
+    &-col {
+      max-width: 680px;
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+      font-size: 26px;
+    }
+  }
+
+  &__what-inside {
+    padding: 100px 0;
+
+    h2 {
+      font-size: 48px;
+      font-weight: 700;
+      margin-bottom: 48px;
+    }
+
+    p{
+      font-size: 26px;
+      margin-bottom: 32px;
+
+      span{
+        font-weight: 700;
+      }
+    }
+
+    &-cards {
+      display: flex;
+      justify-content: space-between;
+    }
+    &-card {
+      position: relative;
+    }
+
+    img {
+      position: absolute;
+      top: 12px;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+    }
+
+    &-img {
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      background: $primary-blue-color;
+      border-radius: 50%;
+      width: 149px;
+      aspect-ratio: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: -1;
+    }
+
+    &-text {
+      margin-top: 73px;
+      width: 332px;
+      height: 271px;
+      background: $primary-blue-color;
+      padding: 31px 20px 70px 20px;
+      color: $white-color;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      gap: 17px;
+      border-radius: 20px;
+
+      h3 {
+        font-size: 20px;
+        font-weight: 700;
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+}

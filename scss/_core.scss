@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'SF Pro Text', sans-serif;
+  color: $primary-blue-color;
+  background: $bg-color;
+}
+
+.wrap {
+  max-width: 1400px;
+  margin: 0 auto;
+}
