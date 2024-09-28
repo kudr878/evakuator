@@ -1,0 +1,23 @@
+.footer {
+  height: 240px;
+  background: $header-bg-color;
+  padding-bottom: 20px;
+  font-size: 16px;
+
+  > .wrap {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__nav{
+    display: flex;gap: 63.5px;
+  }
+
+  a {
+    color: $white-color;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+}

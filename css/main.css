@@ -612,6 +612,28 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
   margin-bottom: 28px;
 }
 
+.footer {
+  height: 240px;
+  background: #586c75;
+  padding-bottom: 20px;
+  font-size: 16px;
+}
+.footer > .wrap {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__nav {
+  display: flex;
+  gap: 63.5px;
+}
+.footer a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 .button {
   width: 335px;
   height: 56px;
